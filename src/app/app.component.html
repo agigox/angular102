@@ -1,0 +1,16 @@
+<div>
+<h1 class="app-title">{{title}}</h1>
+<ul>
+  <li *ngFor="let course of (courses$ | async)" class="course-item">
+    <p *ngIf="course; else elseBlock">
+      <b>Name: </b>{{course.name}}<br>
+      <b>Author: </b>{{course.author}}<br>
+      <b>Category: </b>{{course.category}}<br>
+      <b>ID: </b>{{course.id}}<br>
+    </p>
+  </li>
+</ul>
+<ng-template #elseBlock>Content to render when condition is false.</ng-template>
+<button class="advanced-courses" (click)="displayAdvanced()">See Advanced Courses only</button>
+</div>
+<app-add-course></app-add-course>

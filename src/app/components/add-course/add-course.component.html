@@ -1,0 +1,14 @@
+<form (ngSubmit)="addCourse()" [formGroup]="formCourse">
+  <label>Name</label>
+  <input type="text" formControlName="name">
+  <label>Author</label>
+  <input type="text" formControlName="author">
+  <label>Category</label>
+  <select type="text" formControlName="category">
+    <option value="advanced">ADVANCED</option>
+    <option value="bignner">BIGNNER</option>
+  </select>
+  <label>ID</label>
+  <input type="number" formControlName="id">
+  <button type="submit">Add Course</button>
+</form>

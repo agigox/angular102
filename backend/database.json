@@ -1,0 +1,36 @@
+{
+  "courses": [
+    {
+      "name": "Table Improvement",
+      "author": "Issue tracking is awesome because of collaboration",
+      "category": "BIGNNER",
+      "id": 1
+    },
+    {
+      "name": "Tooltip Issue",
+      "author": "Issue tracking is awesome because of collaboration",
+      "category": "ADVANCED",
+      "id": 2
+    },
+    {
+      "name": "Amine",
+      "id": 3
+    },
+    {
+      "name": "Amine ddd",
+      "id": 4
+    },
+    {
+      "name": "ythhgf",
+      "author": "hgfggf",
+      "category": "bignner",
+      "id": 9
+    },
+    {
+      "name": "dddd",
+      "author": "drffdfd",
+      "category": "advanced",
+      "id": 13
+    }
+  ]
+}
