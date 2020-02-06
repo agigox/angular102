@@ -1,0 +1,16 @@
+{
+  "courses": [
+    {
+      "name": "Table Improvement",
+      "author": "Issue tracking is awesome because of collaboration",
+      "category": "BIGNNER",
+      "id": 1
+    },
+    {
+      "name": "Tooltip Issue",
+      "author": "Issue tracking is awesome because of collaboration",
+      "category": "ADVANCED",
+      "id": 2
+    }
+  ]
+}
