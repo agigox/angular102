@@ -28,7 +28,7 @@ const setupCourses = () => {
 const bignnerCourses = setupCourses().filter(course => course.category === 'BIGNNER');
 const advancedCourses = setupCourses().filter(course => course.category === 'ADVANCED');
 
-fdescribe('AppComponent', () => {
+describe('AppComponent', () => {
 
   let component: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
@@ -64,7 +64,7 @@ fdescribe('AppComponent', () => {
     expect(cards).toBeTruthy('Could not find cards');
     expect(cards.length).toBe(2, 'Unexpected number of courses');
   });
-
+/*
   it('should test example of asynchronous operation', fakeAsync(() => {
     let test = false;
     setTimeout(() => {
@@ -73,6 +73,7 @@ fdescribe('AppComponent', () => {
       expect(test).toBeTruthy();
     }, 1000);
   }));
+  */
 });
 /*
 describe('Marble testing basics', () => {

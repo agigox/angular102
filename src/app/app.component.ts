@@ -3,7 +3,7 @@ import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { interval, fromEvent } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
-import { CoursesService } from './courses.service';
+import { CoursesService } from './courses/services/courses.service';
 import { Course } from './course.model';
 
 @Component({

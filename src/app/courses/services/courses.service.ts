@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Course } from './course.model';
+import { Course } from '../../course.model';
 @Injectable({
   providedIn: 'root'
 })
@@ -14,4 +14,3 @@ export class CoursesService {
     return this.http.get<Course[]>(`${this.baseurl}/courses`);
   }
 }
-src/docs/asciidoc/release_notes/0.15.1.RELEASE.adoc
