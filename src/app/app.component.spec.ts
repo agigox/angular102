@@ -56,7 +56,7 @@ describe('AppComponent', () => {
   it(`should have as title 'ANGULAR 102'`, () => {
     expect(component.title).toEqual('ANGULAR 102');
   });
-
+/*
   it('should display the course list', () => {
     component.courses = setupCourses();
     fixture.detectChanges();
@@ -64,6 +64,7 @@ describe('AppComponent', () => {
     expect(cards).toBeTruthy('Could not find cards');
     expect(cards.length).toBe(2, 'Unexpected number of courses');
   });
+  */
 /*
   it('should test example of asynchronous operation', fakeAsync(() => {
     let test = false;
