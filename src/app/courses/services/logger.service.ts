@@ -9,6 +9,7 @@ export class LoggerService {
 
   log(message: string): void {
     console.log('feature branch commit 1');
+    console.log('feature branch commit 2');
     console.log(message);
   }
 }
